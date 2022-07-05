@@ -67,6 +67,10 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 
+.line {
+    border: 1px solid #ECECEC;
+   }
+
 .main-container1 {
     display: flex;
     background-color: #2F303A;
