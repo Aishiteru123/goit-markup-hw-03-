@@ -136,26 +136,79 @@ color: #212121;
 }
 
 .main-container4 h2{
-    padding-top: 94px;
+    padding-top: 54px;
     text-align: center;
 }
 
 .cards {
     display: inline;
+    columns: 4;
+    padding-bottom: 0px;
+    padding-left: 375px;
+    padding-bottom: 84px;
 }
 
+.li5 {
+    margin-left: -94px;    
+}
 
+.li6 {
+    margin-left: -189px;    
+}
 
+.li7 {
+    margin-left: -283px;    
+}
 
+.cards h3 {
+    margin-top: -85px;
+}
 
+.li4 h3{
+    padding-left: 60px;
+}
+
+.li4 p{
+    padding-left: 70px;
+}
+
+.li5 h3{
+    padding-left: 81px;
+}
+
+.li5 p{
+    padding-left: 62px;
+}
+
+.li6 h3{
+    padding-left: 67px;
+}
+
+.li6 p{
+    padding-left: 97px;
+}
+
+.li7 h3{
+    padding-left: 68px;
+}
+
+.li7 p{
+    padding-left: 92px;
+}
 
 .foot-container {
     background-color: #2F303A;
     padding-left: 215px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
-.foot-container .logo-link {
-    padding-top: 60px;
+footer .link-inline3 {
+    margin-top: 9px;
+}
+
+footer .link-inline2 {
+    margin-top: 9px;
 }
 
 .accentlogo2 {
