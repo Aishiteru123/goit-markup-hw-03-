@@ -7,9 +7,11 @@ body {
 
 a {
     text-decoration: none;
-   }
+}
 
-ul { list-style: none; }
+ul {
+    list-style: none;
+}
 
 .head-container {
     display: flex;
@@ -48,28 +50,28 @@ nav {
 
 .logo-link {
     font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.2;
-letter-spacing: 0.03em;
-color: #2196F3;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #2196F3;
 }
 
 .accentlogo {
     font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.2;
-letter-spacing: 0.03em;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 
-color: #212121;
+    color: #212121;
 }
 
 .line {
     border: 1px solid #ECECEC;
-   }
+}
 
 .main-container1 {
     display: flex;
@@ -139,7 +141,7 @@ color: #212121;
     flex-direction: column;
 }
 
-.main-container4 h2{
+.main-container4 h2 {
     padding-top: 54px;
     text-align: center;
 }
@@ -152,50 +154,50 @@ color: #212121;
 }
 
 .li5 {
-    margin-left: -94px;    
+    margin-left: -94px;
 }
 
 .li6 {
-    margin-left: -189px;    
+    margin-left: -189px;
 }
 
 .li7 {
-    margin-left: -283px;    
+    margin-left: -283px;
 }
 
 .cards h3 {
     margin-top: -85px;
 }
 
-.li4 h3{
+.li4 h3 {
     padding-left: 60px;
 }
 
-.li4 p{
+.li4 p {
     padding-left: 70px;
 }
 
-.li5 h3{
+.li5 h3 {
     padding-left: 81px;
 }
 
-.li5 p{
+.li5 p {
     padding-left: 62px;
 }
 
-.li6 h3{
+.li6 h3 {
     padding-left: 67px;
 }
 
-.li6 p{
+.li6 p {
     padding-left: 97px;
 }
 
-.li7 h3{
+.li7 h3 {
     padding-left: 68px;
 }
 
-.li7 p{
+.li7 p {
     padding-left: 92px;
 }
 
@@ -280,7 +282,7 @@ color: #212121;
     margin-top: -16px;
 }
 
-.cards2  {
+.cards2 {
     display: inline;
     columns: 3;
 }
@@ -338,39 +340,39 @@ footer .link-inline2 {
 
 .accentlogo2 {
     font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.2;
-letter-spacing: 0.03em;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
 
 .link-inline {
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.1;
-letter-spacing: 0.02em;
-color: #212121;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #212121;
 }
 
 .link-inline2 {
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.1;
-letter-spacing: 0.02em;
-color: #757575;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #757575;
 }
 
 .link-inline3 {
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
 
 
@@ -390,45 +392,45 @@ color: #FFFFFF;
 }
 
 .main-logo {
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.4;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-text-align: left;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: left;
+    color: #FFFFFF;
 }
 
 .button1 {
     font-family: Roboto;
-color: #FFFFFF;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 1.9;
-cursor: pointer;
-background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.9;
+    cursor: pointer;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 
-width: 200px;
-height: 50px;
-border: none;
+    width: 200px;
+    height: 50px;
+    border: none;
 }
 
 .button2 {
     font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
-cursor: pointer;
-background: #F5F4FA;
-border-radius: 4px;
-border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    cursor: pointer;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: none;
 
-height: 38px;
+    height: 38px;
 }
 
 .button2:hover,
@@ -437,68 +439,68 @@ height: 38px;
 }
 
 .main-zag {
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 1.1;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #212121;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
 }
 
 .main-par {
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;
-color: #757575;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
 .main-zag-2 {
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 1.2;
-text-align: left;
-letter-spacing: 0.03em;
-color: #212121;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: left;
+    letter-spacing: 0.03em;
+    color: #212121;
 }
 
 .name {
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.2;
-text-align: left;
-letter-spacing: 0.03em;
-color: #212121;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: left;
+    letter-spacing: 0.03em;
+    color: #212121;
 }
 
 .prof {
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.2;
-text-align: left;
-letter-spacing: 0.03em;
-color: #757575;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: left;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
 .name2 {
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: #212121; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
 }
 
 .prof2 {
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.9;
-letter-spacing: 0.03em;
-color: #757575;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
