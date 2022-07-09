@@ -7,372 +7,299 @@ body {
 
 a {
     text-decoration: none;
-}
+   }
 
-ul {
-    list-style: none;
-}
+ul { list-style: none; }
 
-.head-container {
+header {
     display: flex;
     background-color: #FFFFFF;
 }
 
-.head-container .logo-link {
-    padding-bottom: 25px;
-    padding-top: 24px;
-    padding-left: 215px;
-    padding-right: 93px;
+.line {
+    margin: 0;
+    border: 1px solid #ECECEC;
+}
+
+header .container {
+    display: flex;
 }
 
 nav {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    display: flex;
 }
 
-.a1 {
-    padding-left: 50px;
+header ul {
+    display: flex;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.a2 {
-    padding-left: 50px;
-}
-
-.a3 {
-    padding-left: 50px;
+.a1 , .a2 , .a3{
+    margin-left: 50px;
 }
 
 .contact {
     padding-top: 32px;
     padding-bottom: 32px;
-    padding-left: 576px;
+    padding-left: 331px;
+}
+
+header .logo-link {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    padding-right: 63px;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.main-section-1 {
+    display: flex;
+    background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.main-section-1 h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.button-pos {
+    display: flex;
+    justify-content: center;
+}
+
+.main-section-2 {
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+.main-section-2 ul {
+    display: flex;
+    margin: 0;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.li1 {
+    margin-left: -40px;
+}
+
+.li2 , .li3 , .li4 {
+    margin-left: 65px;
+}
+
+.main-section-3 {
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+.main-section-3 h2 {
+    text-align: center;
+}
+
+.main-section-3 ul {
+    display: flex;
+    padding-bottom: 94px;
+}
+
+.li5 {
+    margin-left: -25px;
+}
+
+.li6 , .li7 {
+    margin-left: 30px;
+}
+
+.main-section-4 {
+    display: flex;
+    background-color: #F5F4FA;
+}
+
+.main-section-4 h2 {
+    margin: 0;
+    padding-top: 94px;
+    text-align: center;
+}
+
+.main-section-4 ul {
+    display: flex;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 94px;
+}
+
+.li8 {
+    margin-left: -25px;
+
+}
+
+.li9 , .li10 , .li11{
+    margin-left: 30px;
+}
+
+.main-section-4 h3 {
+    margin: 0;
+    text-align: center;
+    margin-top: -85px;
+}
+
+.main-section-4 p {
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.main-section-5 {
+    display: flex;
+    background-color: #FFFFFF;
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
+.main-section-5 ul {
+    display: flex;
+    margin-left: -40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+}
+
+.li14 , .li15 , .li16 , .li17 {
+    margin-left: 8px;
+}
+
+.main-section-6 {
+    background-color: #FFFFFF;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.main-section-6 ul {
+    display: flex;
+}
+
+.li18 , .li21 , .li24 {
+    margin-left: -40px;
+}
+
+.li19 , .li20 , .li22 , .li23 , .li25 , .li26{
+    margin-left: 30px
+}
+
+.main-section-7 {
+    background-color: #FFFFFF;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.main-section-7 ul {
+    display: flex;
+}
+
+.main-section-8 {
+    background-color: #FFFFFF;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.main-section-8 ul {
+    display: flex;
+}
+
+.main-section-9 {
+    padding-bottom: 74px;
+}
+
+.main-section-9 h3{
+    margin: 0;
+    margin-top: -95px;
+    margin-left: 24px;
+}
+
+.main-section-9 p {
+    margin: 0;
+    margin-left: 24px;
+    padding-top: 4px;
+    
+}
+
+footer {
+    display: flex;
+    background-color: #2F303A;
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.li12 , .li13 {
+    padding-top: 9px;
 }
 
 .logo-link {
     font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: #2196F3;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: #2196F3;
 }
 
 .accentlogo {
     font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
 
-    color: #212121;
-}
-
-.line {
-    border: 1px solid #ECECEC;
-}
-
-.main-container1 {
-    display: flex;
-    background-color: #2F303A;
-    flex-direction: column;
-}
-
-.main-container1 h1 {
-    padding-top: 200px;
-    text-align: center;
-}
-
-.main-container2 {
-    display: flex;
-    padding-top: 94px;
-    padding-bottom: 94px;
-    padding-left: 390px;
-}
-
-.div1 {
-    padding-left: 60px;
-}
-
-.div2 {
-    padding-left: 60px;
-}
-
-.div3 {
-    padding-left: 60px;
-}
-
-.main-button {
-    padding-bottom: 30px;
-    padding-bottom: 200px;
-    text-align: center;
-}
-
-.main-container3 {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 94px;
-}
-
-.main-container3 h2 {
-    text-align: center;
-}
-
-.main-container3 li {
-    display: inline;
-}
-
-.li1 {
-    padding-left: 325px;
-}
-
-.li2 {
-    padding-left: 30px;
-}
-
-.li3 {
-    padding-left: 30px;
-}
-
-.main-container4 {
-    display: flex;
-    background-color: #F5F4FA;
-    flex-direction: column;
-}
-
-.main-container4 h2 {
-    padding-top: 54px;
-    text-align: center;
-}
-
-.cards {
-    display: inline;
-    columns: 4;
-    padding-left: 375px;
-    padding-bottom: 84px;
-}
-
-.li5 {
-    margin-left: -94px;
-}
-
-.li6 {
-    margin-left: -189px;
-}
-
-.li7 {
-    margin-left: -283px;
-}
-
-.cards h3 {
-    margin-top: -85px;
-}
-
-.li4 h3 {
-    padding-left: 60px;
-}
-
-.li4 p {
-    padding-left: 70px;
-}
-
-.li5 h3 {
-    padding-left: 81px;
-}
-
-.li5 p {
-    padding-left: 62px;
-}
-
-.li6 h3 {
-    padding-left: 67px;
-}
-
-.li6 p {
-    padding-left: 97px;
-}
-
-.li7 h3 {
-    padding-left: 68px;
-}
-
-.li7 p {
-    padding-left: 92px;
-}
-
-.main-container5 {
-    padding-top: 78px;
-    display: flex;
-    flex-direction: column;
-}
-
-.main-container5 li {
-    display: inline;
-    columns: 5;
-}
-
-.li8 {
-    padding-left: 590px;
-}
-
-.li9 {
-    padding-left: 4px;
-}
-
-.li10 {
-    padding-left: 4px;
-}
-
-.li11 {
-    padding-left: 4px;
-}
-
-.li12 {
-    padding-left: 4px;
-}
-
-.main-container6 {
-    display: flex;
-    flex-direction: column;
-    columns: 3;
-    padding-top: 18px;
-}
-
-.main-container6 h3 {
-    padding-left: 24px;
-    margin-top: -95px;
-}
-
-.main-container6 p {
-    padding-left: 24px;
-    margin-top: -16px;
-}
-
-.main-container7 {
-    display: flex;
-    flex-direction: column;
-    columns: 3;
-}
-
-.main-container7 h3 {
-    padding-left: 24px;
-    margin-top: -95px;
-}
-
-.main-container7 p {
-    padding-left: 24px;
-    margin-top: -16px;
-}
-
-.main-container8 {
-    display: flex;
-    flex-direction: column;
-    columns: 3;
-    padding-bottom: 74px;
-}
-
-.main-container8 h3 {
-    padding-left: 24px;
-    margin-top: -95px;
-}
-
-.main-container8 p {
-    padding-left: 24px;
-    margin-top: -16px;
-}
-
-.cards2 {
-    display: inline;
-    columns: 3;
-}
-
-.li13 {
-    padding-left: 325px;
-}
-
-.li14 {
-    padding-left: 99px;
-}
-
-.li15 {
-    margin-left: -128px;
-}
-
-.li16 {
-    padding-left: 325px;
-}
-
-.li17 {
-    padding-left: 99px;
-}
-
-.li18 {
-    margin-left: -128px;
-}
-
-.li19 {
-    padding-left: 325px;
-}
-
-.li20 {
-    padding-left: 99px;
-}
-
-.li21 {
-    margin-left: -128px;
-}
-
-.foot-container {
-    background-color: #2F303A;
-    padding-left: 215px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-footer .link-inline3 {
-    margin-top: 9px;
-}
-
-footer .link-inline2 {
-    margin-top: 9px;
+color: #212121;
 }
 
 .accentlogo2 {
     font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: #FFFFFF;
 }
 
 .link-inline {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.02em;
-    color: #212121;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+color: #212121;
 }
 
 .link-inline2 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.02em;
-    color: #757575;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+color: #757575;
 }
 
 .link-inline3 {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
 }
 
 
@@ -392,45 +319,43 @@ footer .link-inline2 {
 }
 
 .main-logo {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.4;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    text-align: left;
-    color: #FFFFFF;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.4;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+text-align: left;
+color: #FFFFFF;
 }
 
 .button1 {
     font-family: Roboto;
-    color: #FFFFFF;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.9;
-    cursor: pointer;
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-
-    width: 200px;
-    height: 50px;
-    border: none;
+color: #FFFFFF;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.9;
+cursor: pointer;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+width: 200px;
+height: 50px;
+border: 0;
 }
 
 .button2 {
     font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    cursor: pointer;
-    background: #F5F4FA;
-    border-radius: 4px;
-    border: none;
-
-    height: 38px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+cursor: pointer;
+background: #F5F4FA;
+border-radius: 4px;
+height: 38px;
+border: 0;
 }
 
 .button2:hover,
@@ -439,68 +364,68 @@ footer .link-inline2 {
 }
 
 .main-zag {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
 }
 
 .main-par {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: #757575;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: #757575;
 }
 
 .main-zag-2 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.2;
-    text-align: left;
-    letter-spacing: 0.03em;
-    color: #212121;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.2;
+text-align: left;
+letter-spacing: 0.03em;
+color: #212121;
 }
 
 .name {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
-    text-align: left;
-    letter-spacing: 0.03em;
-    color: #212121;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+text-align: left;
+letter-spacing: 0.03em;
+color: #212121;
 }
 
 .prof {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.2;
-    text-align: left;
-    letter-spacing: 0.03em;
-    color: #757575;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.2;
+text-align: left;
+letter-spacing: 0.03em;
+color: #757575;
 }
 
 .name2 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: #212121;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121; 
 }
 
 .prof2 {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.9;
-    letter-spacing: 0.03em;
-    color: #757575;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.03em;
+color: #757575;
 }
