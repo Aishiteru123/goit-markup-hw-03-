@@ -229,10 +229,11 @@ header .logo-link {
 
 .main-section-9 h3{
     margin: 0;
-    width: 322px;
+    width: 353px;
     height: 36px;
     margin-top: -95px;
     padding-left: 24px;
+    padding-right: 0px;
 }
 
 .main-section-9 p {
