@@ -1,5 +1,11 @@
-body {
+@import 'node_modules/modern-normalize/modern-normalize.css';
+
+html, body {
     margin: 0;
+    padding: 0;
+  }
+
+body {
     color: #212121;
     background-color: #FFFFFF;
     font-family: Roboto;
@@ -79,13 +85,18 @@ header .logo-link {
 .main-section-2 {
     display: flex;
     background-color: #FFFFFF;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .main-section-2 ul {
     display: flex;
     margin: 0;
-    padding-top: 94px;
-    padding-bottom: 94px;
+}
+
+.main-section-2 li {
+    width: 270px;
+    height: 101px;
 }
 
 .li1 {
@@ -93,12 +104,13 @@ header .logo-link {
 }
 
 .li2 , .li3 , .li4 {
-    margin-left: 65px;
+    margin-left: 30px;
 }
 
 .main-section-3 {
     display: flex;
     background-color: #FFFFFF;
+    padding-bottom: 94px;
 }
 
 .main-section-3 h2 {
@@ -107,7 +119,6 @@ header .logo-link {
 
 .main-section-3 ul {
     display: flex;
-    padding-bottom: 94px;
 }
 
 .li5 {
@@ -121,11 +132,12 @@ header .logo-link {
 .main-section-4 {
     display: flex;
     background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .main-section-4 h2 {
     margin: 0;
-    padding-top: 94px;
     text-align: center;
 }
 
@@ -133,7 +145,6 @@ header .logo-link {
     display: flex;
     margin: 0;
     padding-top: 50px;
-    padding-bottom: 94px;
 }
 
 .li8 {
@@ -208,7 +219,6 @@ header .logo-link {
 .main-section-8 {
     background-color: #FFFFFF;
     display: flex;
-    padding-bottom: 30px;
 }
 
 .main-section-8 ul {
@@ -216,20 +226,22 @@ header .logo-link {
 }
 
 .main-section-9 {
-    padding-bottom: 74px;
+    padding-bottom: 94px;
 }
 
 .main-section-9 h3{
     margin: 0;
+    width: 322px;
+    height: 36px;
     margin-top: -95px;
-    margin-left: 24px;
+    padding-left: 24px;
 }
 
 .main-section-9 p {
     margin: 0;
-    margin-left: 24px;
-    padding-top: 4px;
-    
+    width: 322px;
+    height: 30px; 
+    padding-left: 24px;
 }
 
 footer {
@@ -360,6 +372,9 @@ background: #F5F4FA;
 border-radius: 4px;
 height: 38px;
 border: 0;
+
+padding-left: 22px;
+padding-right: 22px;
 }
 
 .button2:hover,
