@@ -18,6 +18,13 @@ ul { list-style: none; }
 header {
     display: flex;
     background-color: #FFFFFF;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-family: Roboto;
+}
+
+main {
+    font-family: Roboto;
 }
 
 .line {
@@ -36,8 +43,8 @@ nav {
 header ul {
     display: flex;
     margin: 0;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 0;
+    margin-top: 7px;
 }
 
 .a1 , .a2 , .a3{
@@ -45,15 +52,12 @@ header ul {
 }
 
 .contact {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 331px;
+    margin-left: auto;
+    margin-top: 7px;
 }
 
 header .logo-link {
-    padding-top: 24px;
-    padding-bottom: 25px;
-    padding-right: 63px;
+    margin-right: 93px;
 }
 
 .container {
@@ -94,7 +98,6 @@ header .logo-link {
 
 .main-section-2 li {
     width: 270px;
-    height: 101px;
 }
 
 .li1 {
@@ -230,7 +233,6 @@ header .logo-link {
 .main-section-9 h3{
     margin: 0;
     width: 353px;
-    height: 36px;
     margin-top: -95px;
     padding-left: 24px;
     padding-right: 0px;
@@ -239,7 +241,6 @@ header .logo-link {
 .main-section-9 p {
     margin: 0;
     width: 322px;
-    height: 30px; 
     padding-left: 24px;
 }
 
@@ -249,6 +250,7 @@ footer {
     margin: 0;
     padding-top: 60px;
     padding-bottom: 40px;
+    font-family: Roboto;
 }
 
 footer ul {
@@ -256,7 +258,7 @@ footer ul {
 }
 
 .li12 , .li13 {
-    padding-top: 9px;
+    margin-top: 9px;
 }
 
 .logo-link {
@@ -309,14 +311,24 @@ color: #757575;
 }
 
 .link-inline3 {
+font-family: Roboto;
 font-style: normal;
-font-weight: normal;
+font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
 
+.link-inline4 {
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
 
 .link-inline:hover,
 .link-inline:focus {
