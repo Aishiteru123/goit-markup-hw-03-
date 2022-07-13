@@ -103,6 +103,10 @@ header .logo-link {
     width: 270px;
 }
 
+.main-section-2 p{
+    margin-top: 10px;
+}
+
 .li2 , .li3 , .li4 {
     margin-left: 30px;
 }
@@ -142,7 +146,7 @@ header .logo-link {
 .main-section-4 ul {
     display: flex;
     margin: 0;
-    padding-top: 50px;
+    margin-top: 50px;
 }
 
 .li9 , .li10 , .li11{
@@ -165,8 +169,7 @@ header .logo-link {
 .main-section-5 {
     display: flex;
     background-color: #FFFFFF;
-    padding-top: 94px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .main-section-5 ul {
@@ -183,7 +186,7 @@ header .logo-link {
 .main-section-6 {
     background-color: #FFFFFF;
     display: flex;
-    padding-bottom: 55px;
+    margin-bottom: 55px;
 }
 
 .main-section-6 ul {
@@ -197,7 +200,7 @@ header .logo-link {
 .main-section-7 {
     background-color: #FFFFFF;
     display: flex;
-    padding-bottom: 55px;
+    margin-bottom: 55px;
 }
 
 .main-section-7 ul {
@@ -213,8 +216,13 @@ header .logo-link {
     display: flex;
 }
 
+.main-section-8 li {
+    margin-bottom: 25px;
+}
+
 .main-section-9 {
-    padding-bottom: 119px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .main-section-9 h3{
@@ -236,8 +244,12 @@ footer {
     background-color: #2F303A;
     margin: 0;
     padding-top: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     font-family: Roboto;
+}
+
+footer ul {
+    margin-top: 20px;
 }
 
 .li12 , .li13 {
