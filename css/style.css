@@ -186,7 +186,7 @@ header .logo-link {
 .main-section-6 {
     background-color: #FFFFFF;
     display: flex;
-    margin-bottom: 55px;
+    margin-bottom: 30px;
 }
 
 .main-section-6 ul {
@@ -200,7 +200,7 @@ header .logo-link {
 .main-section-7 {
     background-color: #FFFFFF;
     display: flex;
-    margin-bottom: 55px;
+    margin-bottom: 30px;
 }
 
 .main-section-7 ul {
@@ -214,6 +214,14 @@ header .logo-link {
 
 .main-section-8 ul {
     display: flex;
+}
+
+.main-section-6 li {
+    margin-bottom: 25px;
+}
+
+.main-section-7 li {
+    margin-bottom: 25px;
 }
 
 .main-section-8 li {
