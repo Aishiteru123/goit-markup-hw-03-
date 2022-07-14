@@ -20,8 +20,8 @@ h1, h2, h3, h4, h5, h6, p { margin: 0; }
 header {
     display: flex;
     background-color: #FFFFFF;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     font-family: Roboto;
 }
 
@@ -36,6 +36,7 @@ main {
 
 header .container {
     display: flex;
+    align-items: center;
 }
 
 nav {
@@ -46,7 +47,6 @@ header ul {
     display: flex;
     margin: 0;
     padding: 0;
-    margin-top: 7px;
 }
 
 .a1 , .a2 , .a3{
@@ -55,7 +55,6 @@ header ul {
 
 .contact {
     margin-left: auto;
-    margin-top: 7px;
 }
 
 header .logo-link {
